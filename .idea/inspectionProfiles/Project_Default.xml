@@ -1,0 +1,156 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyMethodMayBeStaticInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="rest_framework" />
+            <item index="1" class="java.lang.String" itemvalue="faker" />
+            <item index="2" class="java.lang.String" itemvalue="django" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="nix_proxy.permission.models.Permission.*" />
+          <option value="nix_proxy.bill_payment.service.financial_flow.execute.*" />
+          <option value="nix_proxy.bill_payment.service.rendimento.remote_confirm_bill_payment_no_code_darf.confirm_no_code_darf.*" />
+          <option value="nix_proxy.bill_payment.service.rendimento.db_create_rendimento_bill_payment.create_bill_payment.assert_called_once_with" />
+          <option value="nix_proxy.statement.services.db_create_statement_for_rendimento.create.*" />
+          <option value="nix_proxy.bill_payment.service.rendimento.remote_confirm_bill_payment_no_code_icms.confirm_no_code_icms.*" />
+          <option value="nix_proxy.bill_payment.service.rendimento.remote_confirm_bill_payment_no_code_ipva.confirm_no_code_ipva.*" />
+          <option value="nix_proxy.bill_payment.bank_api.bill_payment_rendimento_api.create_bill_payment_tributo.*" />
+          <option value="nix_proxy.bill_payment.service.financial_flow.refund.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.translate_digitable_line.TranslateDigitableLine.*" />
+          <option value="nix_proxy.bill_payment.service.rendimento.validate_bill_payment._build_payload.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.bank_api.bill_payment_rendimento_api.get_bill_payment.*" />
+          <option value="nix_proxy.bill_payment.service.translate_digitable_line.get_type.*" />
+          <option value="nix_proxy.bill_payment.service.rendimento.validate_bill_payment._get_status.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.validate_bill_payment._get_payment_url.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.utils.manage_rendimento_fail_reasons.get_reason.assert_called_once_with" />
+          <option value="nix_proxy.banks.models.BanksModel.*" />
+          <option value="utils.repositories_contracts.find_all.order_by" />
+          <option value="nix_proxy.banks.services.db_get_bank.get_bank_by_bank_code.*" />
+          <option value="utils.repositories_contracts.create.*" />
+          <option value="nix_proxy.webhooks.services.sender.bill_payment_webhook_sender.send_webhook.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.bankly.remote_confirm_bill_payment._remote_request.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.bankly.remote_confirm_bill_payment._create_new_payment.*" />
+          <option value="nix_proxy.bill_payment.contracts.confirm.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.bankly.db_create_bill_payment.create_bill_payment.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.contracts.validate.assert_called_once_with" />
+          <option value="nix_proxy.banks.services.db_get_bank.list_ordered_bank_by_priority_level.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.payment_bank_selector._run_bankly_payment.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.payment_bank_selector._run_rendimento_payment.assert_not_called" />
+          <option value="nix_proxy.bill_payment.service.payment_bank_selector._run_rendimento_payment.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.payment_bank_selector._run_bankly_payment.assert_not_called" />
+          <option value="nix_proxy.bill_payment.service.bankly.remote_validate_bill_payment.validate.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.bankly.remote_validate_bill_payment.validate.return_value" />
+          <option value="nix_proxy.bill_payment.service.bankly.remote_confirm_bill_payment.confirm.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.bankly.remote_confirm_bill_payment.confirm.return_value" />
+          <option value="nix_proxy.bill_payment.service.rendimento.create_bill_payment_securities.create_securities.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.create_bill_payment_agreement.create_agreement.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.create_bill_payment_tax.create_tax.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.create_bill_payment_tax_darf.create_darf.assert_called_once_with" />
+          <option value="list.pop" />
+          <option value="nix_proxy.bill_payment.service.rendimento.validate_bill_payment._build_output_data.assert_called_once_with" />
+          <option value="utils.barcode.get_barcode_type.assert_called_once_with" />
+          <option value="utils.barcode.get_digitable_line.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.validate_bill_payment._get_output_darf_data.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.validate_bill_payment._get_output_data.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.bankly.validate_bill_payment._build_output_data.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.bankly.validate_bill_payment.validate_payment.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.validate_bill_payment.validate_payment.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.db_create_schedule_bill_payment._validate_bill_payment.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.schedule_event.create.*" />
+          <option value="nix_proxy.bill_payment.service.validate_payment.validate_payment.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.db_create_schedule_bill_payment._validate_payment_amount.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.db_get_scheduled_bill_payment.get_by_digitable_line.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.db_get_scheduled_bill_payment.get_by_request_and_account_id_and_type_and_status.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.bankly.confirm_payment.confirm.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.confirm_payment.confirm.assert_not_called" />
+          <option value="nix_proxy.bill_payment.service.bankly.confirm_payment.confirm.assert_not_called" />
+          <option value="nix_proxy.bill_payment.service.rendimento.confirm_payment.confirm.*" />
+          <option value="nix_proxy.bill_payment.service.rendimento.confirm_payment.set_strategy.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.create_bill_payment_base.create.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.remote_confirm_bill_payment_tax_darf.confirm_darf.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.remote_confirm_bill_payment_securities.confirm_securities.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.remote_confirm_bill_payment_securities.confirm_securities.return_value" />
+          <option value="nix_proxy.bill_payment.bank_api.bill_payment_rendimento_api.create_bill_payment_consumo.assert_called_once_with" />
+          <option value="utils.barcode.is_darf.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.validations.validate_amount.is_valid.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.db_get_scheduled_event.get_by_id.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.asynchronous.async_run_scheduled_bill_payment._validate_scheduled_event.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.asynchronous.async_run_scheduled_bill_payment._build_input_data.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.payment_bank_selector.pay_by_priority_bank_service.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.asynchronous.async_run_scheduled_bill_payment._update_scheduled_event_status.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.db_update_scheduled_event_status.change_status_and_response_data.assert_called_once_with" />
+          <option value="utils.repositories_contracts.safe_get.assert_called_once_with" />
+          <option value="bool.assert_called_once_with" />
+          <option value="nix_proxy.webhooks.services.sender.webhook_sender._send_webhook.assert_called_once_with" />
+          <option value="nix_proxy.webhooks.services.sender.webhook_sender.create_account_headers.assert_called_once_with" />
+          <option value="nix_proxy.webhooks.services.sender.webhook_sender.create_client_headers.assert_called_once_with" />
+          <option value="utils.nix_events.contracts.execute.assert_called_once_with" />
+          <option value="utils.repositories_contracts.update.assert_called_once_with" />
+          <option value="nix_proxy.webhooks.services.sender.confirm_scheduled_event_webhook_sender.send.assert_called_once_with" />
+          <option value="nix_proxy.webhooks.services.sender.confirm_scheduled_event_webhook_sender.send.has_not_called" />
+          <option value="utils.repositories_contracts.update.has_not_called" />
+          <option value="nix_proxy.scheduled_events.services.db_update_scheduled_event._validate_scheduled_events.assert_called_once_with" />
+          <option value="nix_proxy.webhooks.services.update_status.update_scheduled_event.update.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.db_update_scheduled_event._validate_scheduled_event.assert_called_once_with" />
+          <option value="nix_proxy.transfer.service.update_scheduled_transfer._validate_kwargs.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.db_update_scheduled_event.update_event.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.db_update_scheduled_event._validate_approvals.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.db_update_scheduled_event._validate_recurrency.assert_called_once_with" />
+          <option value="nix_proxy.scheduled_events.services.db_update_scheduled_event._validate_request.assert_called_once_with" />
+          <option value="utils.external_services.bankly.contracts._build_url.assert_called_once_with" />
+          <option value="utils.external_services.bankly.contracts.get_auth_and_set_http_client.assert_called_once_with" />
+          <option value="utils.http_client.get.assert_called_once_with" />
+          <option value="utils.external_services.bankly.contracts.save_log.assert_called_once_with" />
+          <option value="utils.http_client.get.return_value" />
+          <option value="nix_proxy.webhooks.bankly_webhooks_api.list_received_webhooks.assert_called_once_with" />
+          <option value="nix_proxy.webhooks.bankly_webhooks_api.reprocess_received_webhooks.assert_called_once_with" />
+          <option value="utils.http_client.post.assert_called_once_with" />
+          <option value="utils.http_client.post.return_value" />
+          <option value="nix_proxy.billet.services.db_get_billet.get_by_our_number.assert_called_once_with" />
+          <option value="nix_proxy.billet.contracts.update.assert_not_called" />
+          <option value="nix_proxy.billet.contracts.update.assert_called_once_with" />
+          <option value="nix_proxy.webhooks.services.sender.billet_webhook_sender.send_billet_wh.assert_called_once_with" />
+          <option value="nix_proxy.webhooks.services.receiver.bankly.process_billet_hybrid.process_billet_hybrid.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.db_create_bill_payment.create_bill_payment.assert_called_once_with" />
+          <option value="str.uuid4" />
+          <option value="nix_proxy.bill_payment.service.db_get_bill_payment.get_by_authentication_code.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.get_bill_payment.get_bankly_bill_payment.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.validate_bill_payment.validate_payment.assert_not_called" />
+          <option value="nix_proxy.bill_payment.service.bankly.validate_bill_payment.validate_payment.assert_not_called" />
+          <option value="nix_proxy.bill_payment.service.rendimento.create_bill_payment_agreement._get_bill_payment_data_in_rendimento.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.create_bill_payment_agreement._confirm_payment_in_rendimento.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.create_bill_payment_base._create_bill_payment.assert_called_once_with" />
+          <option value="str.set" />
+          <option value="nix_proxy.bill_payment.service.rendimento.create_bill_payment_agreement._get_extra_info.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.remote_confirm_bill_payment_agreement.confirm_agreement.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.remote_confirm_bill_payment_tax.confirm_tax.assert_called_once_with" />
+          <option value="nix_proxy.accounts.services.db_get_account.get_by_account_number_and_branch.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.financial_flow._build_transfer_data.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.financial_flow._create_transfer.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.financial_flow._build_refund_transfer_data.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.financial_flow._create_transfer.assert_not_called" />
+          <option value="nix_proxy.bill_payment.service.rendimento.validate_bill_payment._get_remote_response.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.rendimento.create_bill_payment_base._get_remote_response.assert_called_once_with" />
+          <option value="nix_proxy.pix.contracts.transfer_cash_out.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.service.bankly.validate_bill_payment._remote_response.assert_called_once_with" />
+          <option value="nix_proxy.bill_payment.contracts.bill_payment_detail_by_authentication_code.return_value" />
+          <option value="nix_proxy.bill_payment.contracts.bill_payment_detail_by_authentication_code.*" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="SpellCheckingInspection" enabled="true" level="TYPO" enabled_by_default="true" editorAttributes="TYPO">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
